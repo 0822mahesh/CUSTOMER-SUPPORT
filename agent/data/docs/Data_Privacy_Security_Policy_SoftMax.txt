@@ -1,0 +1,132 @@
+SoftMax
+
+Human Resources Policy
+
+Policy Title: Employee Data Privacy & Security Policy
+
+Policy Effective Date: June 17, 2025
+Policy Review Date: June 17, 2026
+
+1. Policy Statement
+
+SoftMax, as an AI/ML consulting firm, understands the critical importance of data privacy and security, both for our clients and for our own employees. We are committed to protecting the personal information of our employees and ensuring its confidentiality, integrity, and availability. This policy outlines how SoftMax collects, uses, stores, discloses, and disposes of employee personal information in compliance with applicable privacy legislation in Ontario, Canada.
+
+2. Purpose
+
+The purpose of this policy is to:
+* Inform employees about SoftMax's practices regarding the collection, use, and disclosure of their personal information.
+* Ensure that employee personal information is handled with appropriate safeguards and only for legitimate business purposes.
+* Define employee responsibilities in protecting personal and sensitive company data.
+* Comply with privacy principles and requirements under relevant Canadian and Ontario legislation (e.g., PIPEDA, where applicable, and common law principles of privacy).
+
+3. Scope
+
+This policy applies to all personal information collected from and about SoftMax employees (full-time, part-time, temporary, interns, and contractors) during recruitment, employment, and after employment cessation. It covers all forms of personal information, whether stored electronically or physically.
+
+4. Definitions
+
+4.1. Personal Information: Information about an identifiable individual. This includes, but is not limited to:
+* Name, address, contact details (phone, email).
+* Date of birth, gender.
+* Employment history, education, qualifications.
+* Performance reviews, disciplinary records.
+* Bank account details, SIN (Social Insurance Number).
+* Health information (e.g., medical certificates for leave).
+* Emergency contact information.
+* Biometric data (if collected, with explicit consent and justification).
+* Any other information that, alone or in combination with other data, can identify an individual.
+
+4.2. Sensitive Personal Information: A subset of personal information that is more sensitive in nature and typically requires a higher level of protection (e.g., health information, financial data, SIN).
+
+4.3. Employee Data System: Any system, database, or physical filing system used by SoftMax to store employee personal information.
+
+5. Collection of Employee Personal Information
+
+5.1. Necessity and Consent:
+* SoftMax will collect only the personal information necessary for legitimate business purposes related to human resources, payroll, benefits administration, legal compliance, and workplace management.
+* Where required, employees will be informed of the purpose for collecting their information and their consent will be obtained (explicit or implicit, depending on the context and sensitivity).
+
+5.2. Sources of Collection:
+* Directly from the employee (e.g., application forms, onboarding documents).
+* From third parties with employee consent (e.g., background checks, references).
+* Through observation during employment (e.g., performance data, disciplinary records).
+* Automatically through IT systems (e.g., network access logs, email usage data - refer to IT Security Policy for details on monitoring).
+
+6. Use of Employee Personal Information
+
+SoftMax uses employee personal information for the following purposes:
+* Recruitment, selection, and onboarding.
+* Payroll processing, tax deductions, and benefits administration.
+* Performance management and career development.
+* Workforce planning and organizational management.
+* Communication with employees and their emergency contacts.
+* Compliance with legal and regulatory obligations (e.g., ESA, WSIB, CRA).
+* Workplace health and safety management.
+* Administering leaves of absence.
+* Addressing disciplinary matters or grievances.
+* Internal auditing and reporting.
+* Managing employee records.
+
+7. Disclosure of Employee Personal Information
+
+Employee personal information will only be disclosed on a "need-to-know" basis and for legitimate purposes, including:
+* To internal SoftMax personnel (managers, HR, payroll) who require access for their job responsibilities.
+* To third-party service providers (e.g., benefits providers, payroll processors, IT support) who assist SoftMax in its operations, under strict contractual confidentiality agreements.
+* As required by law (e.g., to government authorities for tax purposes, court orders).
+* With the employee's explicit consent.
+* In emergency situations (e.g., to emergency services or medical personnel).
+
+SoftMax will not sell or rent employee personal information to third parties.
+
+8. Storage and Security of Employee Personal Information
+
+8.1. Data Security:
+* SoftMax implements robust technical, administrative, and physical safeguards to protect employee personal information from unauthorized access, use, disclosure, alteration, or destruction. This includes:
+    * Encryption of sensitive data.
+    * Access controls and user authentication.
+    * Firewalls and intrusion detection systems.
+    * Regular security audits and vulnerability assessments.
+    * Secure physical storage for hard copy records.
+    * Data backup and recovery procedures.
+
+8.2. Data Retention:
+* Employee personal information will be retained only for as long as necessary to fulfill the purposes for which it was collected, or as required by law (e.g., CRA, ESA regulations require certain records to be kept for specific periods).
+* Upon expiry of the retention period, personal information will be securely disposed of (e.g., shredding hard copies, secure deletion of electronic files).
+
+8.3. Data Location:
+* Employee data is primarily stored on servers located within Canada. If data is processed or stored outside of Canada, SoftMax will ensure appropriate legal and security safeguards are in place.
+
+9. Employee Rights Regarding Personal Information
+
+9.1. Access and Correction:
+* Employees have the right to access their own personal information held by SoftMax, subject to legal limitations.
+* Employees may request correction of any inaccurate or incomplete personal information.
+* Requests for access or correction should be made in writing to Human Resources.
+
+9.2. Questions and Concerns:
+* Employees with questions or concerns about SoftMax's privacy practices or the handling of their personal information should contact Human Resources.
+
+10. Responsibilities
+
+10.1. SoftMax:
+* Appoint a designated individual (e.g., HR Manager or Privacy Officer) responsible for overseeing privacy compliance.
+* Ensure all employees who handle personal information are aware of this policy and receive appropriate training.
+* Implement and maintain robust security measures.
+
+10.2. Employees:
+* Understand and comply with this policy and SoftMax's IT Security Policy.
+* Protect any personal information they access or handle as part of their job duties.
+* Report any suspected or actual privacy breaches immediately to their manager and Human Resources.
+* Maintain the security of their login credentials and devices.
+
+11. Privacy Breach Protocol
+
+In the event of a privacy breach involving employee personal information, SoftMax will:
+* Contain the breach and assess its severity.
+* Notify affected individuals where there is a real risk of significant harm, as required.
+* Notify relevant regulatory bodies if legally obligated.
+* Investigate the cause of the breach and implement corrective actions to prevent recurrence.
+
+12. Policy Review
+
+This policy will be reviewed annually by SoftMax leadership and the Human Resources department to ensure its ongoing relevance, effectiveness, and compliance with evolving privacy legislation and best practices.
