@@ -1,9 +1,12 @@
+""" Agent Executer"""
 from .chains import get_agent
-from .tools import answer_using_rag
 
 def run_support_agent(user_query:str):
+    """ 
+    This function retrives an agent and invokes it with user question.
+    """
     try:
         agent = get_agent()
         return agent.invoke(user_query)
-    except Exception as e:
+    except (ValueError,AttributeError) as e:
         return {"message":f"unable to call the agent{e}"}
