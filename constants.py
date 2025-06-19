@@ -15,3 +15,6 @@ CHUNK_OVERLAP = 100
 PROMPT = hub.pull("rlm/rag-prompt")
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+FAITHFULNESS_THRESHOLD = 0.6
+ANSWER_RELEVANCY_THRESHOLD = 0.7
+CONTEXT_RECALL_THRESHOLD = 0.8

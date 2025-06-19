@@ -124,16 +124,17 @@ docker compose up --build
 ## Running Tests
 
 ```sh
-pytest tests/
+pytest tests/test_agent.py
 ```
 
 Or with Docker Compose:
-```sh
+
+````sh
 docker compose run test
 
 ```sh
 docker-compose run test
-```
+````
 
 ---
 
@@ -160,7 +161,16 @@ docker-compose run test
 
 ---
 
+## RAGAS Evaluation Dataset Format
 
+Each line in `tests/eval_dataset.jsonl` should be a JSON object:
 
-
-
+```json
+{
+  "query": "What is the code of conduct?",
+  "ground_truth": "A code of conduct is a policy that provides guidelines for behavior and actions within a specific context, such as a workplace. ...",
+  "contexts": [
+    "A code of conduct is a policy that provides guidelines for behavior and actions within a specific context, such as a workplace. ..."
+  ]
+}
+```
