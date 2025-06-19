@@ -25,11 +25,11 @@ def get_llm() -> ChatOpenAI:
     logger.info("Initializing ChatOpenAI model with gpt-4")
     return ChatOpenAI(model="gpt-4",temperature=0, api_key=OPENAI_API_KEY)
 
-def get_obs_path(extention:str) -> str:
-    """
-    This function will take the extended ural and create obs path
-    """
-    return os.path.abspath(os.path.join(os.path.dirname(__file__), extention))
+# def get_obs_path(extention:str) -> str:
+#     """
+#     This function will take the extended ural and create obs path
+#     """
+#     return os.path.abspath(os.path.join(os.path.dirname(__file__), extention))
 
 def get_embadings():
     """

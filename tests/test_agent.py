@@ -68,6 +68,7 @@ def test_escalation():
     result = escalate_to_human.invoke({"query": query})
     assert isinstance(result, dict)
     assert "escalating" in result["output"].lower() or "agent" in result["output"].lower() 
+    
 def test_answer_using_rag():
     """Tests the answer_using_rag function to ensure it returns a dictionary containing a relevant response
     to a query using RAG (Retrieval-Augmented Generation). Verifies that the output includes keywords related to the query,
