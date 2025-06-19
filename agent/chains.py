@@ -1,12 +1,11 @@
 """ Chains file"""
-from dotenv import load_dotenv
 from langchain.agents import AgentType, initialize_agent
-from .config import get_llm
-from .tools import (answer_billing_query, answer_general_query,
-                    answer_technical_query, answer_using_rag,
-                    escalate_to_human, log_query)
 
-load_dotenv()
+from constants import logger
+from .config import get_llm
+from .tools import (answer_billing_query, answer_technical_query,
+                    answer_using_rag, escalate_to_human, general_query)
+
 
 def get_tools():
     """
@@ -16,14 +15,28 @@ def get_tools():
         answer_using_rag,
         answer_billing_query,
         answer_technical_query,
-        answer_general_query,
+        general_query,
         escalate_to_human,
-        log_query,
         ]
 
 def get_agent():
     """
-    Initializes and returns a support agent using predefined tools and an LLM.
+    Initializes and returns a LangChain agent configured with tools and an LLM.
+    Returns: LangChain agent instance
     """
-    agent = initialize_agent(tools=get_tools(),llm=get_llm(), agent=AgentType.OPENAI_FUNCTIONS, verbose= True)
-    return agent
+    try:
+        tools = get_tools()
+        llm = get_llm()
+
+        logger.info("Initializing support agent with tools and LLM.")
+        agent = initialize_agent(
+            tools=tools,
+            llm=llm,
+            agent=AgentType.OPENAI_FUNCTIONS,
+            verbose=True
+        )
+        return agent
+
+    except Exception as e:
+        logger.exception("Failed to initialize agent.")
+        raise RuntimeError(f"Agent initialization error: {str(e)}")
